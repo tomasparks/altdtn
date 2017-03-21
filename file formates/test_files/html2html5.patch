@@ -1,0 +1,67 @@
+--- html.html	2016-07-19 14:35:40.855508702 +1000
++++ html5.html	2016-07-19 14:35:42.291508643 +1000
+@@ -1,11 +1,14 @@
+-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml">
++<!DOCTYPE html>
++<html>
+ <head>
+-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-  <meta http-equiv="Content-Style-Type" content="text/css" />
+-  <meta name="generator" content="pandoc" />
++  <meta charset="utf-8">
++  <meta name="generator" content="pandoc">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+   <title></title>
+   <style type="text/css">code{white-space: pre;}</style>
++  <!--[if lt IE 9]>
++    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
++  <![endif]-->
+ </head>
+ <body>
+ 
+@@ -18,10 +21,9 @@
+ <h2 id="history">History</h2>
+ <p><img src="Old HTML Logo.svg" title="fig:|thumb|right|The historic logo made by the W3C" alt="|thumb|right|The historic logo made by the W3C" width="100" /> <img src="HTML Example Code.png" title="fig:An example website written in HTML Code" alt="An example website written in HTML Code" width="400" /></p>
+ <h3 id="development">Development</h3>
+-<div class="figure">
+-<img src="Tim Berners-Lee April 2009.jpg" title=" Tim Berners-Lee " alt=" Tim Berners-Lee " />
+-<p class="caption"> <a href="Tim_Berners-Lee" title="wikilink">Tim Berners-Lee</a> </p>
+-</div>
++<figure>
++<img src="Tim Berners-Lee April 2009.jpg" title=" Tim Berners-Lee " alt=" Tim Berners-Lee " /><figcaption> <a href="Tim_Berners-Lee" title="wikilink">Tim Berners-Lee</a> </figcaption>
++</figure>
+ <p>In 1980, physicist <a href="Tim_Berners-Lee" title="wikilink">Tim Berners-Lee</a>, then a contractor at <a href="CERN" class="uri" title="wikilink">CERN</a>, proposed and prototyped <a href="ENQUIRE" class="uri" title="wikilink">ENQUIRE</a>, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an <a href="Internet" class="uri" title="wikilink">Internet</a>-based <a href="hypertext" class="uri" title="wikilink">hypertext</a> system.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer <a href="Robert_Cailliau" title="wikilink">Robert Cailliau</a> collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> from 1990 he listed<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> “some of the many areas in which hypertext is used” and put an encyclopedia first.</p>
+ <p>The first publicly available description of HTML was a document called “HTML Tags”, first mentioned on the Internet by Tim Berners-Lee in late 1991.<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a><a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by <a href="SGMLguid" class="uri" title="wikilink">SGMLguid</a>, an in-house <a href="Standard_Generalized_Markup_Language" title="wikilink">Standard Generalized Markup Language</a> (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML 4.<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></p>
+ <p>HTML is a <a href="markup_language" title="wikilink">markup language</a> that <a href="web_browser" title="wikilink">web browsers</a> use to interpret and <a href="Typesetting" title="wikilink">compose</a> text, images, and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of <a href="Cascading_Style_Sheets" title="wikilink">CSS</a>. Many of the text elements are found in the 1988 ISO technical report TR 9537 <em>Techniques for using SGML</em>, which in turn covers the features of early text formatting languages such as that used by the <a href="TYPSET_and_RUNOFF" title="wikilink">RUNOFF command</a> developed in the early 1960s for the <a href="Compatible_Time-Sharing_System" title="wikilink">CTSS</a> (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS.</p>
+@@ -65,10 +67,9 @@
+ 
+ </dl>
+ <h4 id="html-draft-version-timeline">HTML draft version timeline</h4>
+-<div class="figure">
+-<img src="HTML5-logo.svg" title="Logo of HTML5" alt="Logo of HTML5" width="200" />
+-<p class="caption">Logo of HTML5</p>
+-</div>
++<figure>
++<img src="HTML5-logo.svg" title="Logo of HTML5" alt="Logo of HTML5" width="200" /><figcaption>Logo of HTML5</figcaption>
++</figure>
+ <dl>
+ <dt>October 1991: <em>HTML Tags</em>,<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a> an informal CERN document listing 18 HTML tags, was first mentioned in public.<br />
+ June 1992: First informal draft of the HTML DTD,<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a> with seven<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a><a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a><a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a> subsequent revisions (July 15, August 6, August 18, November 17, November 19, November 20, November 22)<br />
+@@ -362,7 +363,7 @@
+ 
+ 
+ <p><a href="Category:HTML" class="uri" title="wikilink">Category:HTML</a> <a href="Category:1990_introductions" title="wikilink">Category:1990 introductions</a> <a href="Category:Markup_languages" title="wikilink">Category:Markup languages</a> <a href="Category:Technical_communication" title="wikilink">Category:Technical communication</a> <a href="Category:World_Wide_Web_Consortium_standards" title="wikilink">Category:World Wide Web Consortium standards</a> <a href="Category:Articles_with_example_code" title="wikilink">Category:Articles with example code</a></p>
+-<div class="footnotes">
++<section class="footnotes">
+ <hr />
+ <ol>
+ <li id="fn1"><a href="#fnref1">↩</a></li>
+@@ -459,6 +460,6 @@
+ <li id="fn92"><a href="http://xhtml.com/en/xhtml/reference/blockquote/">XHTML Reference: blockquote</a>. Xhtml.com. Retrieved on 2012-02-16.<a href="#fnref92">↩</a></li>
+ <li id="fn93"><a href="http://www.invisiblerevolution.net/">Doug Engelbart's INVISIBLE REVOLUTION</a> . Invisiblerevolution.net. Retrieved on 2012-02-16.<a href="#fnref93">↩</a></li>
+ </ol>
+-</div>
++</section>
+ </body>
+ </html>
